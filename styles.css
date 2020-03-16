@@ -1,0 +1,135 @@
+#custom_nav_bar {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+body {
+  font-family: "Noto Serif", serif;
+}
+
+#moto_container,
+#about_us,
+#services {
+  padding: 6.5rem 0rem 2rem 0rem;
+  height: fit-content;
+}
+
+#moto_container {
+  background-color: #f8f9fa;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.moto {
+  width: 80%;
+  font-size: 2.5em;
+  color: #0d5382;
+  padding: 20px;
+}
+
+a,
+.custom_nav_link {
+  color: #65a400 !important;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #0d5382;
+}
+
+.header {
+  color: #0d5382;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cta {
+  position: absolute;
+  height: fit-content;
+  bottom: 0;
+  margin: 0.7rem auto;
+  border-radius: 30px;
+  border-color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.section_content {
+  font-size: large;
+  margin-bottom: 2em;
+  line-height: 32px;
+}
+
+.service {
+  font-size: xx-large;
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 900px) {
+  .moto {
+    font-size: 3.5em;
+  }
+  .cta {
+    font-size: xx-large;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .moto {
+    font-size: 3em;
+  }
+  .cta {
+    font-size: xx-large;
+  }
+}
+
+@media only screen and (max-width: 647px) {
+  .moto {
+    font-size: 2.8em;
+  }
+  .cta {
+    font-size: x-large;
+  }
+}
+
+@media only screen and (max-width: 538px) {
+  .moto {
+    font-size: 2.5em;
+  }
+  .cta {
+    font-size: x-large;
+  }
+}
+
+@media only screen and (max-width: 442px) {
+  .moto {
+    font-size: 2.4em;
+  }
+  .cta {
+    font-size: large;
+  }
+}
+
+@media only screen and (max-width: 367px) {
+  .moto {
+    font-size: 2em;
+  }
+  .cta {
+    font-size: large;
+  }
+}
+
+@media only screen and (max-width: 292px) {
+  .moto {
+    font-size: 1.5em;
+  }
+  .cta {
+    font-size: medium;
+  }
+}
