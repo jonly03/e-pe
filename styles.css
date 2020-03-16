@@ -23,6 +23,38 @@ body {
   justify-content: center;
   align-items: center;
   margin-bottom: 4em;
+  text-align: center;
+}
+
+#footer_container {
+  background-color: #f8f9fa;
+  display: flex;
+  height: fit-content;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer {
+  width: 80%;
+  font-size: 2em;
+  color: black;
+  padding: 20px;
+}
+
+.footer_cta {
+  margin-bottom: 2em;
+}
+
+.credit {
+  position: relative;
+  bottom: 0px;
+}
+
+.italic {
+  font-size: 1.5em;
+  font-style: italic;
 }
 
 .moto {
