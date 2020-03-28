@@ -20,6 +20,28 @@ body {
   height: fit-content;
 }
 
+#services {
+  background-color: cornsilk;
+}
+
+#our_belief_more,
+#our_belief {
+  background-color: burlywood;
+}
+
+#about_us_more,
+#about_us {
+  background-color: gainsboro;
+}
+
+#services_more {
+  background-color: floralwhite;
+}
+
+#expertise {
+  background-color: blanchedalmond;
+}
+
 #moto_container {
   background-color: #f8f9fa;
   display: flex;
