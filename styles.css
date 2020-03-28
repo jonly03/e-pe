@@ -165,7 +165,7 @@ a:hover {
 
 @media only screen and (min-width: 900px) {
   .moto {
-    font-size: 3.5em;
+    font-size: 2.5em;
   }
   .cta {
     font-size: xx-large;
@@ -174,7 +174,7 @@ a:hover {
 
 @media only screen and (max-width: 900px) {
   .moto {
-    font-size: 3em;
+    font-size: 2em;
   }
   .cta {
     font-size: xx-large;
@@ -183,7 +183,7 @@ a:hover {
 
 @media only screen and (max-width: 647px) {
   .moto {
-    font-size: 2.8em;
+    font-size: 1.8em;
   }
   .cta {
     font-size: x-large;
@@ -192,7 +192,7 @@ a:hover {
 
 @media only screen and (max-width: 538px) {
   .moto {
-    font-size: 2.5em;
+    font-size: 1.5em;
   }
   .cta {
     font-size: x-large;
@@ -201,7 +201,7 @@ a:hover {
 
 @media only screen and (max-width: 442px) {
   .moto {
-    font-size: 2.4em;
+    font-size: 1.5em;
   }
   .cta {
     font-size: large;
@@ -210,7 +210,7 @@ a:hover {
 
 @media only screen and (max-width: 367px) {
   .moto {
-    font-size: 2em;
+    font-size: 1em;
   }
   .cta {
     font-size: large;
@@ -219,7 +219,7 @@ a:hover {
 
 @media only screen and (max-width: 292px) {
   .moto {
-    font-size: 1.5em;
+    font-size: 0.5em;
   }
   .cta {
     font-size: medium;
