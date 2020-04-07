@@ -130,6 +130,7 @@ a:hover {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  font-size: large;
 }
 
 .section_content {
@@ -189,17 +190,11 @@ a:hover {
   .moto {
     font-size: 2.5em;
   }
-  .cta {
-    font-size: xx-large;
-  }
 }
 
 @media only screen and (max-width: 900px) {
   .moto {
     font-size: 2em;
-  }
-  .cta {
-    font-size: xx-large;
   }
 }
 
@@ -207,35 +202,20 @@ a:hover {
   .moto {
     font-size: 1.8em;
   }
-  .cta {
-    font-size: x-large;
-  }
 }
 
 @media only screen and (max-width: 538px) {
   .moto {
     font-size: 1.5em;
   }
-  .cta {
-    font-size: x-large;
-  }
 }
 
-@media only screen and (max-width: 442px) {
-  .moto {
-    font-size: 1.5em;
-  }
-  .cta {
-    font-size: large;
-  }
-}
-
-@media only screen and (max-width: 367px) {
+@media only screen and (max-width: 390px) {
   .moto {
     font-size: 1em;
   }
   .cta {
-    font-size: large;
+    font-size: medium;
   }
 }
 
@@ -244,6 +224,6 @@ a:hover {
     font-size: 0.5em;
   }
   .cta {
-    font-size: medium;
+    font-size: small;
   }
 }
