@@ -34,6 +34,11 @@ body {
   background-color: gainsboro;
 }
 
+.about_us_logo_container {
+  display: flex;
+  justify-content: center;
+}
+
 #services_more {
   background-color: floralwhite;
 }
