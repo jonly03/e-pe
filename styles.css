@@ -15,7 +15,8 @@ body {
 #our_belief_more,
 #services,
 #services_more,
-#expertise {
+#expertise,
+#resources {
   padding: 6.5rem 0rem 2rem 0rem;
   height: fit-content;
 }
@@ -45,6 +46,16 @@ body {
 
 #expertise {
   background-color: blanchedalmond;
+}
+
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.article_card {
+  margin: 15px;
 }
 
 #moto_container {
