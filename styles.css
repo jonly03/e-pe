@@ -40,6 +40,10 @@ body {
   justify-content: center;
 }
 
+.about_us_logo {
+  width: 100%;
+}
+
 #services_more {
   background-color: floralwhite;
 }
