@@ -41,7 +41,7 @@ body {
 }
 
 .about_us_logo {
-  width: 50%;
+  width: 100%;
   object-fit: cover;
 }
 
